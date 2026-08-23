@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/opportunity.schema.json",
+  "title": "Opportunity",
+  "type": "object",
+  "required": ["id", "niche_id", "cluster_id", "title", "problem", "target_customer", "proposed_offer", "business_model", "evidence_ids", "dimensions", "score", "score_version", "risks", "experiment"],
+  "properties": {
+    "id": {"type": "string"},
+    "niche_id": {"type": "string"},
+    "cluster_id": {"type": "string"},
+    "title": {"type": "string"},
+    "problem": {"type": "string"},
+    "target_customer": {"type": "string"},
+    "proposed_offer": {"type": "string"},
+    "business_model": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "dimensions": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 10}},
+    "score": {"type": "number", "minimum": 0, "maximum": 10},
+    "score_version": {"const": "v1"},
+    "risks": {"type": "array", "items": {"type": "string"}},
+    "experiment": {"type": "object"}
+  },
+  "additionalProperties": false
+}
+

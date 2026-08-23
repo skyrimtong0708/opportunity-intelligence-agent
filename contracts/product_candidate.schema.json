@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/product_candidate.schema.json",
+  "title": "ProductCandidate",
+  "type": "object",
+  "required": ["id", "niche_id", "source_type", "source_name", "source_url", "title", "supplier_name", "marketplace", "price", "currency", "min_order_quantity", "shipping_origin", "review_count", "sold_count", "problem_tags", "dimensions", "sourcing_score", "score_version", "linked_opportunity_ids", "risks", "metadata"],
+  "properties": {
+    "id": {"type": "string"}, "niche_id": {"type": "string"}, "source_type": {"type": "string"},
+    "source_name": {"type": "string"}, "source_url": {"type": "string"}, "title": {"type": "string"},
+    "supplier_name": {"type": "string"}, "marketplace": {"type": "string"},
+    "price": {"type": "number", "minimum": 0}, "currency": {"type": "string"},
+    "min_order_quantity": {"type": "integer", "minimum": 1}, "shipping_origin": {"type": "string"},
+    "rating": {"type": ["number", "null"], "minimum": 0, "maximum": 5},
+    "review_count": {"type": "integer", "minimum": 0}, "sold_count": {"type": "integer", "minimum": 0},
+    "problem_tags": {"type": "array", "items": {"type": "string"}},
+    "dimensions": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 10}},
+    "sourcing_score": {"type": "number", "minimum": 0, "maximum": 10},
+    "score_version": {"const": "sourcing_v1"},
+    "linked_opportunity_ids": {"type": "array", "items": {"type": "string"}},
+    "risks": {"type": "array", "items": {"type": "string"}}, "metadata": {"type": "object"},
+    "collected_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}
+

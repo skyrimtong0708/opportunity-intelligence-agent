@@ -1,0 +1,13 @@
+{
+  "id": "filament_dry_lab",
+  "name": "3D Filament Dry Lab",
+  "description": "Humidity measurement, drying and storage system for 3D-printing filament.",
+  "actors": ["3D printing hobbyist", "print farm operator", "maker"],
+  "seed_queries": ["filament ẩm stringing", "sấy nhựa in 3d", "hộp dry box filament"],
+  "pain_keywords": {"humidity": ["ẩm", "moisture", "hút ẩm", "nổ lép bép"], "print_quality": ["stringing", "brittle", "fail", "lỗi bề mặt"], "workflow": ["sấy", "bảo quản", "đo độ ẩm", "dry box"]},
+  "clusters": {"humidity_detection": ["ẩm", "moisture", "đo độ ẩm", "nổ lép bép"], "print_failure": ["stringing", "brittle", "fail", "lỗi bề mặt"], "dry_storage_workflow": ["sấy", "bảo quản", "hút ẩm", "dry box"]},
+  "offer_templates": {"humidity_detection": "Humidity sensor protocol + filament risk score", "print_failure": "Print-failure diagnostic kit", "dry_storage_workflow": "Modular dry box + desiccant refill + drying SOP"},
+  "legal_sources": [{"type": "open_forum_api", "name": "Public maker community APIs where permitted", "status": "stub_only"}, {"type": "open_dataset", "name": "Material and humidity datasets", "status": "allowlist"}],
+  "scoring_overrides": {}
+}
+

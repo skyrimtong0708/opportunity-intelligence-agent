@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/cluster.schema.json",
+  "title": "Cluster",
+  "type": "object",
+  "required": ["id", "niche_id", "label", "description", "pain_point_ids", "evidence_count", "keywords"],
+  "properties": {
+    "id": {"type": "string"},
+    "niche_id": {"type": "string"},
+    "label": {"type": "string"},
+    "description": {"type": "string"},
+    "pain_point_ids": {"type": "array", "items": {"type": "string"}, "minItems": 1},
+    "evidence_count": {"type": "integer", "minimum": 1},
+    "keywords": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
+

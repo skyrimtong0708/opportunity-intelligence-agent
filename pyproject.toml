@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "opportunity-intelligence-agent"
+version = "0.1.0"
+description = "Config-driven opportunity intelligence MVP for five niches"
+requires-python = ">=3.11"
+dependencies = [
+  "PyYAML>=6.0.1",
+  "streamlit>=1.36",
+]
+
+[project.optional-dependencies]
+postgres = ["psycopg[binary]>=3.2"]
+dev = ["pytest>=8.2"]
+
+[project.scripts]
+oia = "opportunity_intel.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

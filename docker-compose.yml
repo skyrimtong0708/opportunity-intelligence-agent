@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_DB: oia
+      POSTGRES_USER: oia
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U oia -d oia"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - oia_pgdata:/var/lib/postgresql/data
+      - ./db/postgres_schema.sql:/docker-entrypoint-initdb.d/001-schema.sql:ro
+
+volumes:
+  oia_pgdata:

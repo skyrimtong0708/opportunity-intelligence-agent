@@ -1,0 +1,12 @@
+{
+  "id": "tropical_bonsai_lab",
+  "name": "Tropical Bonsai Lab",
+  "description": "Measurement-led care workflow for tropical bonsai growers.",
+  "actors": ["bonsai grower", "urban gardener", "bonsai collector"],
+  "seed_queries": ["bonsai úng rễ", "bonsai vàng lá", "độ ẩm đất bonsai", "sâu bệnh bonsai"],
+  "pain_keywords": {"watering": ["úng", "khô", "tưới", "độ ẩm"], "health": ["vàng lá", "rụng lá", "thối rễ", "sâu"], "inputs": ["phân", "đất", "thuốc", "thay chậu"]},
+  "clusters": {"watering_control": ["úng", "khô", "tưới", "độ ẩm"], "plant_health": ["vàng lá", "rụng lá", "thối rễ", "sâu"], "care_inputs": ["phân", "đất", "thuốc", "thay chậu"]},
+  "offer_templates": {"watering_control": "Moisture-led watering journal + sensor kit", "plant_health": "Photo triage + care protocol", "care_inputs": "Species/season care pack + replenishment schedule"},
+  "legal_sources": [{"type": "public_research", "name": "Open agricultural extension publications", "status": "allowlist"}, {"type": "first_party", "name": "Consented grower journals", "status": "recommended"}],
+  "scoring_overrides": {}
+}

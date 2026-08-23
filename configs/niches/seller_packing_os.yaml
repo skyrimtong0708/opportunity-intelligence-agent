@@ -1,0 +1,29 @@
+{
+  "id": "seller_packing_os",
+  "name": "Seller Packing OS",
+  "description": "Workflow, materials and lightweight software for Vietnamese sellers packing 10–500 orders/day.",
+  "actors": ["shop owner", "packing staff", "fashion seller", "live-commerce seller"],
+  "seed_queries": ["đóng gói shop nhiều đơn", "in nhãn vận đơn lỗi", "đổi trả shop thời trang", "tối ưu phí đóng gói"],
+  "pain_keywords": {
+    "operations": ["chậm", "kẹt", "nhầm", "thiếu", "mất thời gian"],
+    "cost": ["phí", "giá", "tốn", "lãng phí"],
+    "quality": ["rách", "móp", "hỏng", "hoàn hàng", "return"]
+  },
+  "clusters": {
+    "packing_workflow": ["chậm", "kẹt", "mất thời gian", "nhầm"],
+    "materials_cost": ["phí", "giá", "tốn", "lãng phí", "thiếu"],
+    "damage_and_returns": ["rách", "móp", "hỏng", "hoàn hàng", "return"]
+  },
+  "offer_templates": {
+    "packing_workflow": "Packing station starter kit + label workflow + daily SOP",
+    "materials_cost": "Right-size packaging calculator + monthly consumables refill",
+    "damage_and_returns": "Damage-prevention kit + returns diagnostics and SOP"
+  },
+  "legal_sources": [
+    {"type": "official_api", "name": "Configured marketplace APIs", "status": "stub_only"},
+    {"type": "rss", "name": "Public logistics and commerce feeds", "status": "stub_only"},
+    {"type": "first_party", "name": "Consented seller interviews", "status": "recommended"}
+  ],
+  "scoring_overrides": {}
+}
+

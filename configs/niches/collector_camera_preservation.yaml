@@ -1,0 +1,13 @@
+{
+  "id": "collector_camera_preservation",
+  "name": "Collector / Camera Preservation",
+  "description": "Tropical-climate preservation for cameras, lenses and collectible assets.",
+  "actors": ["camera owner", "lens collector", "collectibles collector"],
+  "seed_queries": ["lens mốc độ ẩm", "tủ chống ẩm camera", "bảo quản đồ sưu tầm"],
+  "pain_keywords": {"mold": ["mốc", "fungus", "ẩm", "đọng nước"], "control": ["tủ chống ẩm", "hygrometer", "độ ẩm", "silica"], "asset_risk": ["hỏng", "mất giá", "lau lens", "sửa"]},
+  "clusters": {"mold_prevention": ["mốc", "fungus", "ẩm", "đọng nước"], "humidity_control": ["tủ chống ẩm", "hygrometer", "độ ẩm", "silica"], "asset_recovery": ["hỏng", "mất giá", "lau lens", "sửa"]},
+  "offer_templates": {"mold_prevention": "Preservation audit + monitoring starter kit", "humidity_control": "Calibrated humidity monitor + refill plan", "asset_recovery": "Early-warning assessment + trusted service routing"},
+  "legal_sources": [{"type": "manufacturer_docs", "name": "Public care manuals", "status": "allowed_with_attribution"}, {"type": "first_party", "name": "Collector inventory observations with consent", "status": "recommended"}],
+  "scoring_overrides": {}
+}
+

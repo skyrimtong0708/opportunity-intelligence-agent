@@ -1,0 +1,2677 @@
+{
+  "collector_camera_preservation": {
+    "evidence": [
+      {
+        "id": "ev_camera_001",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Collector diary fixture",
+        "source_url": "sample://camera/001",
+        "title": "Lens xuất hiện mốc trong mùa ẩm",
+        "content": "lens collector phát hiện fungus và mốc sau nhiều tuần độ ẩm cao.",
+        "observed_at": "2026-08-01T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 33,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "ev_camera_002",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Collector diary fixture",
+        "source_url": "sample://camera/002",
+        "title": "Hygrometer và tủ chống ẩm lệch số",
+        "content": "camera owner không tin số độ ẩm giữa hygrometer và tủ chống ẩm, silica nhanh no nước.",
+        "observed_at": "2026-08-02T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 21,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "ev_camera_003",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Collector diary fixture",
+        "source_url": "sample://camera/003",
+        "title": "Thiết bị hỏng làm bộ sưu tập mất giá",
+        "content": "collectibles collector cần nơi sửa và đánh giá hỏng trước khi tài sản mất giá thêm.",
+        "observed_at": "2026-08-03T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 30,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "ev_camera_004",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Collector diary fixture",
+        "source_url": "sample://camera/004",
+        "title": "Đọng nước khi mang máy từ lạnh ra ngoài",
+        "content": "camera owner lo đọng nước gây ẩm và mốc nhưng chưa có protocol chuyển nhiệt.",
+        "observed_at": "2026-08-04T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 18,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      }
+    ],
+    "pain_points": [
+      {
+        "id": "pain_cfa31a228eaa",
+        "niche_id": "collector_camera_preservation",
+        "evidence_id": "ev_camera_001",
+        "statement": "Lens xuất hiện mốc trong mùa ẩm",
+        "actor": "lens collector",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.7,
+        "severity": 5.9,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.93,
+        "tags": [
+          "fungus",
+          "mốc",
+          "độ ẩm",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "pain_d4dd591d937d",
+        "niche_id": "collector_camera_preservation",
+        "evidence_id": "ev_camera_002",
+        "statement": "Hygrometer và tủ chống ẩm lệch số",
+        "actor": "camera owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.1,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.98,
+        "tags": [
+          "hygrometer",
+          "silica",
+          "tủ chống ẩm",
+          "độ ẩm",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "pain_9797dd2cf4e0",
+        "niche_id": "collector_camera_preservation",
+        "evidence_id": "ev_camera_003",
+        "statement": "Thiết bị hỏng làm bộ sưu tập mất giá",
+        "actor": "collectibles collector",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.5,
+        "severity": 5.9,
+        "willingness_to_pay": 3.9,
+        "confidence": 0.82,
+        "tags": [
+          "hỏng",
+          "mất giá",
+          "sửa"
+        ]
+      },
+      {
+        "id": "pain_5c93a92dc09a",
+        "niche_id": "collector_camera_preservation",
+        "evidence_id": "ev_camera_004",
+        "statement": "Đọng nước khi mang máy từ lạnh ra ngoài",
+        "actor": "camera owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 6.9,
+        "severity": 5.9,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.77,
+        "tags": [
+          "mốc",
+          "đọng nước",
+          "ẩm"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster_65758ae4ef72",
+        "niche_id": "collector_camera_preservation",
+        "label": "asset_recovery",
+        "description": "Recurring asset recovery problems for Collector / Camera Preservation",
+        "pain_point_ids": [
+          "pain_9797dd2cf4e0"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "hỏng",
+          "mất giá",
+          "sửa"
+        ]
+      },
+      {
+        "id": "cluster_ca642fdc9403",
+        "niche_id": "collector_camera_preservation",
+        "label": "humidity_control",
+        "description": "Recurring humidity control problems for Collector / Camera Preservation",
+        "pain_point_ids": [
+          "pain_d4dd591d937d"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "hygrometer",
+          "silica",
+          "tủ chống ẩm",
+          "độ ẩm",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "cluster_cad91c94a8b3",
+        "niche_id": "collector_camera_preservation",
+        "label": "mold_prevention",
+        "description": "Recurring mold prevention problems for Collector / Camera Preservation",
+        "pain_point_ids": [
+          "pain_cfa31a228eaa",
+          "pain_5c93a92dc09a"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "mốc",
+          "ẩm",
+          "fungus",
+          "độ ẩm",
+          "đọng nước"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp_f41b1f0c324e",
+        "niche_id": "collector_camera_preservation",
+        "cluster_id": "cluster_cad91c94a8b3",
+        "title": "Collector / Camera Preservation: Mold Prevention",
+        "problem": "Lens xuất hiện mốc trong mùa ẩm; Đọng nước khi mang máy từ lạnh ra ngoài",
+        "target_customer": "lens collector",
+        "proposed_offer": "Preservation audit + monitoring starter kit",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_camera_001",
+          "ev_camera_004"
+        ],
+        "dimensions": {
+          "frequency": 7.8,
+          "severity": 5.9,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.73,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.82,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "lens collector will pay for: Preservation audit + monitoring starter kit",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_bc972be8ee65",
+        "niche_id": "collector_camera_preservation",
+        "cluster_id": "cluster_65758ae4ef72",
+        "title": "Collector / Camera Preservation: Asset Recovery",
+        "problem": "Thiết bị hỏng làm bộ sưu tập mất giá",
+        "target_customer": "collectibles collector",
+        "proposed_offer": "Early-warning assessment + trusted service routing",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_camera_003"
+        ],
+        "dimensions": {
+          "frequency": 7.5,
+          "severity": 5.9,
+          "willingness_to_pay": 3.9,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.62,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.7,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "collectibles collector will pay for: Early-warning assessment + trusted service routing",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_196e52e3ebd2",
+        "niche_id": "collector_camera_preservation",
+        "cluster_id": "cluster_ca642fdc9403",
+        "title": "Collector / Camera Preservation: Humidity Control",
+        "problem": "Hygrometer và tủ chống ẩm lệch số",
+        "target_customer": "camera owner",
+        "proposed_offer": "Calibrated humidity monitor + refill plan",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_camera_002"
+        ],
+        "dimensions": {
+          "frequency": 8.1,
+          "severity": 4.7,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.83,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.38,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "camera owner will pay for: Calibrated humidity monitor + refill plan",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      }
+    ],
+    "product_candidates": [
+      {
+        "id": "prd_camera_002",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/camera/002",
+        "title": "Silica đổi màu tái sinh cho tủ máy ảnh",
+        "supplier_name": "Supplier CP-B (fixture)",
+        "marketplace": "Shopee",
+        "price": 139000,
+        "currency": "VND",
+        "min_order_quantity": 5,
+        "shipping_origin": "Vietnam",
+        "rating": 4.7,
+        "review_count": 190,
+        "sold_count": 680,
+        "problem_tags": [
+          "silica",
+          "ẩm",
+          "mốc"
+        ],
+        "dimensions": {
+          "pain_fit": 8.3,
+          "demand_signal": 7.8,
+          "repeat_purchase": 8.9,
+          "gross_margin_potential": 7.4,
+          "supplier_reliability": 7.5,
+          "differentiation": 5.8,
+          "ease_of_test": 9.0
+        },
+        "sourcing_score": 7.86,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_f41b1f0c324e",
+          "opp_196e52e3ebd2"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "prd_camera_001",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/camera/001",
+        "title": "Hygrometer kép có chứng nhận hiệu chuẩn",
+        "supplier_name": "Supplier CP-A (fixture)",
+        "marketplace": "Shopee",
+        "price": 479000,
+        "currency": "VND",
+        "min_order_quantity": 2,
+        "shipping_origin": "Vietnam",
+        "rating": 4.8,
+        "review_count": 109,
+        "sold_count": 260,
+        "problem_tags": [
+          "hygrometer",
+          "độ ẩm",
+          "tủ chống ẩm"
+        ],
+        "dimensions": {
+          "pain_fit": 8.8,
+          "demand_signal": 7.1,
+          "repeat_purchase": 4.0,
+          "gross_margin_potential": 7.0,
+          "supplier_reliability": 7.6,
+          "differentiation": 7.8,
+          "ease_of_test": 8.1
+        },
+        "sourcing_score": 7.21,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_196e52e3ebd2"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "prd_camera_003",
+        "niche_id": "collector_camera_preservation",
+        "source_type": "synthetic_sample",
+        "source_name": "Supplier CSV fixture",
+        "source_url": "sample://supplier/camera/003",
+        "title": "Túi chuyển nhiệt chống đọng sương cho camera",
+        "supplier_name": "Supplier CP-C (fixture)",
+        "marketplace": "Supplier CSV",
+        "price": 329000,
+        "currency": "VND",
+        "min_order_quantity": 15,
+        "shipping_origin": "China",
+        "rating": null,
+        "review_count": 0,
+        "sold_count": 0,
+        "problem_tags": [
+          "đọng nước",
+          "ẩm",
+          "hỏng"
+        ],
+        "dimensions": {
+          "pain_fit": 7.9,
+          "demand_signal": 4.6,
+          "repeat_purchase": 4.0,
+          "gross_margin_potential": 7.8,
+          "supplier_reliability": 4.5,
+          "differentiation": 8.7,
+          "ease_of_test": 7.6
+        },
+        "sourcing_score": 6.37,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_f41b1f0c324e",
+          "opp_bc972be8ee65",
+          "opp_196e52e3ebd2"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Supplier reliability signal is thin",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      }
+    ],
+    "media_signals": [
+      {
+        "id": "med_camera_tt_001",
+        "niche_id": "collector_camera_preservation",
+        "platform": "TikTok",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://tiktok/camera/001",
+        "title": "Đừng mở túi camera ngay khi ra khỏi phòng lạnh",
+        "description": "Creator-authorized fixture về đọng nước và chuyển nhiệt.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-20T13:00:00Z",
+        "query": "camera đọng nước",
+        "view_count": 173000,
+        "like_count": 9600,
+        "comment_count": 410,
+        "relevance_score": 9.29,
+        "problem_tags": [
+          "đọng nước",
+          "ẩm",
+          "hỏng"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      },
+      {
+        "id": "med_camera_yt_001",
+        "niche_id": "collector_camera_preservation",
+        "platform": "YouTube",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://youtube/camera/001",
+        "title": "Lens bị fungus trong mùa mưa vì sao",
+        "description": "Video fixture về độ ẩm, mốc và hiệu chuẩn hygrometer.",
+        "creator": "Creator fixture",
+        "published_at": "2026-06-28T09:00:00Z",
+        "query": "lens mốc độ ẩm",
+        "view_count": 64200,
+        "like_count": 2800,
+        "comment_count": 301,
+        "relevance_score": 8.77,
+        "problem_tags": [
+          "mốc",
+          "fungus",
+          "độ ẩm"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.656092+00:00"
+      }
+    ]
+  },
+  "filament_dry_lab": {
+    "evidence": [
+      {
+        "id": "ev_fila_001",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Maker log fixture",
+        "source_url": "sample://filament/001",
+        "title": "Filament ẩm gây tiếng nổ lép bép",
+        "content": "3D printing hobbyist nhận thấy moisture cao nhưng chưa có cách đo độ ẩm cuộn nhựa.",
+        "observed_at": "2026-08-01T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 22,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "ev_fila_002",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Maker log fixture",
+        "source_url": "sample://filament/002",
+        "title": "Print fail vì stringing và lỗi bề mặt",
+        "content": "print farm operator mất nhiều giờ vì stringing, brittle filament và các ca fail lặp lại.",
+        "observed_at": "2026-08-02T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 38,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "ev_fila_003",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Maker log fixture",
+        "source_url": "sample://filament/003",
+        "title": "Dry box vẫn cần sấy và thay hạt hút ẩm",
+        "content": "maker muốn mua dry box có quy trình bảo quản, sấy và nhắc thay hạt hút ẩm.",
+        "observed_at": "2026-08-03T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 26,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "ev_fila_004",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Maker log fixture",
+        "source_url": "sample://filament/004",
+        "title": "Không biết cuộn nào đã hút ẩm",
+        "content": "print farm operator cần đo độ ẩm và gắn trạng thái moisture cho từng cuộn trước khi in.",
+        "observed_at": "2026-08-04T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 19,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      }
+    ],
+    "pain_points": [
+      {
+        "id": "pain_03229b539983",
+        "niche_id": "filament_dry_lab",
+        "evidence_id": "ev_fila_001",
+        "statement": "Filament ẩm gây tiếng nổ lép bép",
+        "actor": "3D printing hobbyist",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.1,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.89,
+        "tags": [
+          "moisture",
+          "nổ lép bép",
+          "đo độ ẩm",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "pain_9dc3e85f272f",
+        "niche_id": "filament_dry_lab",
+        "evidence_id": "ev_fila_002",
+        "statement": "Print fail vì stringing và lỗi bề mặt",
+        "actor": "print farm operator",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.9,
+        "severity": 5.9,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.95,
+        "tags": [
+          "brittle",
+          "fail",
+          "lỗi bề mặt",
+          "stringing"
+        ]
+      },
+      {
+        "id": "pain_50cebef19fab",
+        "niche_id": "filament_dry_lab",
+        "evidence_id": "ev_fila_003",
+        "statement": "Dry box vẫn cần sấy và thay hạt hút ẩm",
+        "actor": "maker",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.3,
+        "severity": 4.7,
+        "willingness_to_pay": 5.3,
+        "confidence": 1.0,
+        "tags": [
+          "bảo quản",
+          "dry box",
+          "hút ẩm",
+          "sấy",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "pain_661426322077",
+        "niche_id": "filament_dry_lab",
+        "evidence_id": "ev_fila_004",
+        "statement": "Không biết cuộn nào đã hút ẩm",
+        "actor": "print farm operator",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.0,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.88,
+        "tags": [
+          "hút ẩm",
+          "moisture",
+          "đo độ ẩm",
+          "ẩm"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster_f0c3bc80fa15",
+        "niche_id": "filament_dry_lab",
+        "label": "dry_storage_workflow",
+        "description": "Recurring dry storage workflow problems for 3D Filament Dry Lab",
+        "pain_point_ids": [
+          "pain_50cebef19fab"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "bảo quản",
+          "dry box",
+          "hút ẩm",
+          "sấy",
+          "ẩm"
+        ]
+      },
+      {
+        "id": "cluster_c0e8617088e8",
+        "niche_id": "filament_dry_lab",
+        "label": "humidity_detection",
+        "description": "Recurring humidity detection problems for 3D Filament Dry Lab",
+        "pain_point_ids": [
+          "pain_03229b539983",
+          "pain_661426322077"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "moisture",
+          "đo độ ẩm",
+          "ẩm",
+          "nổ lép bép",
+          "hút ẩm"
+        ]
+      },
+      {
+        "id": "cluster_cf5f84d4f2ff",
+        "niche_id": "filament_dry_lab",
+        "label": "print_failure",
+        "description": "Recurring print failure problems for 3D Filament Dry Lab",
+        "pain_point_ids": [
+          "pain_9dc3e85f272f"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "brittle",
+          "fail",
+          "lỗi bề mặt",
+          "stringing"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp_e58dd4bee054",
+        "niche_id": "filament_dry_lab",
+        "cluster_id": "cluster_f0c3bc80fa15",
+        "title": "3D Filament Dry Lab: Dry Storage Workflow",
+        "problem": "Dry box vẫn cần sấy và thay hạt hút ẩm",
+        "target_customer": "maker",
+        "proposed_offer": "Modular dry box + desiccant refill + drying SOP",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_fila_003"
+        ],
+        "dimensions": {
+          "frequency": 8.3,
+          "severity": 4.7,
+          "willingness_to_pay": 5.3,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.91,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.88,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "maker will pay for: Modular dry box + desiccant refill + drying SOP",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_87d000cae62c",
+        "niche_id": "filament_dry_lab",
+        "cluster_id": "cluster_cf5f84d4f2ff",
+        "title": "3D Filament Dry Lab: Print Failure",
+        "problem": "Print fail vì stringing và lỗi bề mặt",
+        "target_customer": "print farm operator",
+        "proposed_offer": "Print-failure diagnostic kit",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_fila_002"
+        ],
+        "dimensions": {
+          "frequency": 8.9,
+          "severity": 5.9,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 8.12,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.77,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "print farm operator will pay for: Print-failure diagnostic kit",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_9da45eb2eb33",
+        "niche_id": "filament_dry_lab",
+        "cluster_id": "cluster_c0e8617088e8",
+        "title": "3D Filament Dry Lab: Humidity Detection",
+        "problem": "Filament ẩm gây tiếng nổ lép bép; Không biết cuộn nào đã hút ẩm",
+        "target_customer": "3D printing hobbyist",
+        "proposed_offer": "Humidity sensor protocol + filament risk score",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_fila_001",
+          "ev_fila_004"
+        ],
+        "dimensions": {
+          "frequency": 8.05,
+          "severity": 4.7,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.82,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.65,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "3D printing hobbyist will pay for: Humidity sensor protocol + filament risk score",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      }
+    ],
+    "product_candidates": [
+      {
+        "id": "prd_fila_002",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/filament/002",
+        "title": "Hạt hút ẩm tái sinh kèm thẻ chỉ thị",
+        "supplier_name": "Supplier 3D-B (fixture)",
+        "marketplace": "Shopee",
+        "price": 169000,
+        "currency": "VND",
+        "min_order_quantity": 5,
+        "shipping_origin": "Vietnam",
+        "rating": 4.8,
+        "review_count": 87,
+        "sold_count": 402,
+        "problem_tags": [
+          "hút ẩm",
+          "bảo quản",
+          "dry box"
+        ],
+        "dimensions": {
+          "pain_fit": 8.2,
+          "demand_signal": 7.0,
+          "repeat_purchase": 8.8,
+          "gross_margin_potential": 7.5,
+          "supplier_reliability": 7.2,
+          "differentiation": 6.8,
+          "ease_of_test": 8.9
+        },
+        "sourcing_score": 7.74,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_e58dd4bee054",
+          "opp_9da45eb2eb33"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "prd_fila_001",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/filament/001",
+        "title": "Hộp sấy filament có cảm biến độ ẩm",
+        "supplier_name": "Supplier 3D-A (fixture)",
+        "marketplace": "Shopee",
+        "price": 1290000,
+        "currency": "VND",
+        "min_order_quantity": 1,
+        "shipping_origin": "China",
+        "rating": 4.7,
+        "review_count": 132,
+        "sold_count": 286,
+        "problem_tags": [
+          "ẩm",
+          "sấy",
+          "độ ẩm"
+        ],
+        "dimensions": {
+          "pain_fit": 9.0,
+          "demand_signal": 7.5,
+          "repeat_purchase": 4.2,
+          "gross_margin_potential": 6.5,
+          "supplier_reliability": 7.0,
+          "differentiation": 6.4,
+          "ease_of_test": 8.0
+        },
+        "sourcing_score": 7.1,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_e58dd4bee054",
+          "opp_9da45eb2eb33"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "prd_fila_003",
+        "niche_id": "filament_dry_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Supplier CSV fixture",
+        "source_url": "sample://supplier/filament/003",
+        "title": "Bộ tag NFC theo dõi trạng thái từng cuộn",
+        "supplier_name": "Supplier 3D-C (fixture)",
+        "marketplace": "Supplier CSV",
+        "price": 249000,
+        "currency": "VND",
+        "min_order_quantity": 10,
+        "shipping_origin": "Vietnam",
+        "rating": null,
+        "review_count": 0,
+        "sold_count": 0,
+        "problem_tags": [
+          "đo độ ẩm",
+          "moisture",
+          "fail"
+        ],
+        "dimensions": {
+          "pain_fit": 7.8,
+          "demand_signal": 4.9,
+          "repeat_purchase": 5.5,
+          "gross_margin_potential": 8.0,
+          "supplier_reliability": 4.7,
+          "differentiation": 9.0,
+          "ease_of_test": 7.7
+        },
+        "sourcing_score": 6.71,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_87d000cae62c"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Supplier reliability signal is thin",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      }
+    ],
+    "media_signals": [
+      {
+        "id": "med_fila_tt_001",
+        "niche_id": "filament_dry_lab",
+        "platform": "TikTok",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://tiktok/filament/001",
+        "title": "Dry box DIY sau 30 ngày mùa mưa",
+        "description": "Creator-authorized fixture về sấy và hạt hút ẩm.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-24T13:00:00Z",
+        "query": "dry box filament",
+        "view_count": 89400,
+        "like_count": 5100,
+        "comment_count": 242,
+        "relevance_score": 8.94,
+        "problem_tags": [
+          "dry box",
+          "hút ẩm",
+          "sấy"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      },
+      {
+        "id": "med_fila_yt_001",
+        "niche_id": "filament_dry_lab",
+        "platform": "YouTube",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://youtube/filament/001",
+        "title": "Nhận biết filament ẩm trước khi print fail",
+        "description": "Video fixture về tiếng nổ, stringing và đo độ ẩm.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-05T09:00:00Z",
+        "query": "filament ẩm stringing",
+        "view_count": 35600,
+        "like_count": 2100,
+        "comment_count": 188,
+        "relevance_score": 8.46,
+        "problem_tags": [
+          "ẩm",
+          "stringing",
+          "fail"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.688093+00:00"
+      }
+    ]
+  },
+  "robot_vacuum_care": {
+    "evidence": [
+      {
+        "id": "ev_robot_001",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Owner diary fixture",
+        "source_url": "sample://robot/001",
+        "title": "Chổi thường xuyên kẹt tóc",
+        "content": "pet owner phải gỡ tóc và vệ sinh chổi mỗi tuần vì robot bẩn và giảm lực hút.",
+        "observed_at": "2026-08-01T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 20,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "ev_robot_002",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Owner diary fixture",
+        "source_url": "sample://robot/002",
+        "title": "Không biết khi nào thay filter",
+        "content": "robot vacuum owner muốn mua filter và chổi đúng model nhưng sợ giá cao và không tương thích.",
+        "observed_at": "2026-08-02T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 28,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "ev_robot_003",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Owner diary fixture",
+        "source_url": "sample://robot/003",
+        "title": "Robot lỗi và mất bản đồ sau cập nhật",
+        "content": "apartment resident gặp lỗi mất bản đồ, robot không hút đúng phòng và chưa biết sửa ở đâu.",
+        "observed_at": "2026-08-03T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 35,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "ev_robot_004",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Owner diary fixture",
+        "source_url": "sample://robot/004",
+        "title": "Túi bụi có mùi và nhanh đầy",
+        "content": "pet owner phải thay túi thường xuyên, trạm có mùi và cần kit vệ sinh định kỳ.",
+        "observed_at": "2026-08-04T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 17,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      }
+    ],
+    "pain_points": [
+      {
+        "id": "pain_90cda9ec9499",
+        "niche_id": "robot_vacuum_care",
+        "evidence_id": "ev_robot_001",
+        "statement": "Chổi thường xuyên kẹt tóc",
+        "actor": "pet owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.0,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.88,
+        "tags": [
+          "bẩn",
+          "chổi",
+          "kẹt",
+          "tóc"
+        ]
+      },
+      {
+        "id": "pain_f3b02821a1d7",
+        "niche_id": "robot_vacuum_care",
+        "evidence_id": "ev_robot_002",
+        "statement": "Không biết khi nào thay filter",
+        "actor": "robot vacuum owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.4,
+        "severity": 3.5,
+        "willingness_to_pay": 6.7,
+        "confidence": 0.81,
+        "tags": [
+          "chổi",
+          "filter",
+          "thay"
+        ]
+      },
+      {
+        "id": "pain_de48f8ee8cff",
+        "niche_id": "robot_vacuum_care",
+        "evidence_id": "ev_robot_003",
+        "statement": "Robot lỗi và mất bản đồ sau cập nhật",
+        "actor": "apartment resident",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.8,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.84,
+        "tags": [
+          "không hút",
+          "lỗi",
+          "mất bản đồ"
+        ]
+      },
+      {
+        "id": "pain_b381f464cf06",
+        "niche_id": "robot_vacuum_care",
+        "evidence_id": "ev_robot_004",
+        "statement": "Túi bụi có mùi và nhanh đầy",
+        "actor": "pet owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 6.8,
+        "severity": 3.5,
+        "willingness_to_pay": 5.3,
+        "confidence": 0.77,
+        "tags": [
+          "mùi",
+          "thay",
+          "túi"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster_ddae41620f3f",
+        "niche_id": "robot_vacuum_care",
+        "label": "consumable_replacement",
+        "description": "Recurring consumable replacement problems for Robot Vacuum Care",
+        "pain_point_ids": [
+          "pain_f3b02821a1d7",
+          "pain_b381f464cf06"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "thay",
+          "chổi",
+          "filter",
+          "mùi",
+          "túi"
+        ]
+      },
+      {
+        "id": "cluster_a91da96b6818",
+        "niche_id": "robot_vacuum_care",
+        "label": "reliability_recovery",
+        "description": "Recurring reliability recovery problems for Robot Vacuum Care",
+        "pain_point_ids": [
+          "pain_de48f8ee8cff"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "không hút",
+          "lỗi",
+          "mất bản đồ"
+        ]
+      },
+      {
+        "id": "cluster_20c8b66ec6a8",
+        "niche_id": "robot_vacuum_care",
+        "label": "routine_maintenance",
+        "description": "Recurring routine maintenance problems for Robot Vacuum Care",
+        "pain_point_ids": [
+          "pain_90cda9ec9499"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "bẩn",
+          "chổi",
+          "kẹt",
+          "tóc"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp_cd55979bd6b6",
+        "niche_id": "robot_vacuum_care",
+        "cluster_id": "cluster_ddae41620f3f",
+        "title": "Robot Vacuum Care: Consumable Replacement",
+        "problem": "Không biết khi nào thay filter; Túi bụi có mùi và nhanh đầy",
+        "target_customer": "robot vacuum owner",
+        "proposed_offer": "Verified compatibility refill subscription",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_robot_002",
+          "ev_robot_004"
+        ],
+        "dimensions": {
+          "frequency": 7.1,
+          "severity": 3.5,
+          "willingness_to_pay": 6.0,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.48,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.79,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "robot vacuum owner will pay for: Verified compatibility refill subscription",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_886aa66da094",
+        "niche_id": "robot_vacuum_care",
+        "cluster_id": "cluster_20c8b66ec6a8",
+        "title": "Robot Vacuum Care: Routine Maintenance",
+        "problem": "Chổi thường xuyên kẹt tóc",
+        "target_customer": "pet owner",
+        "proposed_offer": "Model-specific cleaning kit + reminder schedule",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_robot_001"
+        ],
+        "dimensions": {
+          "frequency": 8.0,
+          "severity": 4.7,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.8,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.36,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "pet owner will pay for: Model-specific cleaning kit + reminder schedule",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_0fb22f681beb",
+        "niche_id": "robot_vacuum_care",
+        "cluster_id": "cluster_a91da96b6818",
+        "title": "Robot Vacuum Care: Reliability Recovery",
+        "problem": "Robot lỗi và mất bản đồ sau cập nhật",
+        "target_customer": "apartment resident",
+        "proposed_offer": "Remote diagnostic checklist + repair routing",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_robot_003"
+        ],
+        "dimensions": {
+          "frequency": 7.8,
+          "severity": 4.7,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.73,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.32,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "apartment resident will pay for: Remote diagnostic checklist + repair routing",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      }
+    ],
+    "product_candidates": [
+      {
+        "id": "prd_robot_001",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/robot/001",
+        "title": "Bộ filter chổi cạnh tương thích theo model",
+        "supplier_name": "Supplier RV-A (fixture)",
+        "marketplace": "Shopee",
+        "price": 219000,
+        "currency": "VND",
+        "min_order_quantity": 3,
+        "shipping_origin": "Vietnam",
+        "rating": 4.8,
+        "review_count": 241,
+        "sold_count": 930,
+        "problem_tags": [
+          "filter",
+          "chổi",
+          "thay"
+        ],
+        "dimensions": {
+          "pain_fit": 8.9,
+          "demand_signal": 8.2,
+          "repeat_purchase": 9.0,
+          "gross_margin_potential": 7.1,
+          "supplier_reliability": 7.8,
+          "differentiation": 5.7,
+          "ease_of_test": 8.7
+        },
+        "sourcing_score": 8.06,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_cd55979bd6b6",
+          "opp_886aa66da094"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "prd_robot_002",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/robot/002",
+        "title": "Dụng cụ gỡ tóc và vệ sinh trạm hút",
+        "supplier_name": "Supplier RV-B (fixture)",
+        "marketplace": "Shopee",
+        "price": 99000,
+        "currency": "VND",
+        "min_order_quantity": 5,
+        "shipping_origin": "China",
+        "rating": 4.6,
+        "review_count": 73,
+        "sold_count": 315,
+        "problem_tags": [
+          "kẹt",
+          "tóc",
+          "bẩn"
+        ],
+        "dimensions": {
+          "pain_fit": 8.3,
+          "demand_signal": 6.7,
+          "repeat_purchase": 5.2,
+          "gross_margin_potential": 7.8,
+          "supplier_reliability": 6.5,
+          "differentiation": 6.2,
+          "ease_of_test": 9.0
+        },
+        "sourcing_score": 7.08,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_886aa66da094"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "prd_robot_003",
+        "niche_id": "robot_vacuum_care",
+        "source_type": "synthetic_sample",
+        "source_name": "Supplier CSV fixture",
+        "source_url": "sample://supplier/robot/003",
+        "title": "Bộ nhãn QR lịch bảo trì robot",
+        "supplier_name": "Supplier RV-C (fixture)",
+        "marketplace": "Supplier CSV",
+        "price": 59000,
+        "currency": "VND",
+        "min_order_quantity": 20,
+        "shipping_origin": "Vietnam",
+        "rating": null,
+        "review_count": 0,
+        "sold_count": 0,
+        "problem_tags": [
+          "thay",
+          "lỗi",
+          "bảo trì"
+        ],
+        "dimensions": {
+          "pain_fit": 7.6,
+          "demand_signal": 4.8,
+          "repeat_purchase": 4.5,
+          "gross_margin_potential": 8.4,
+          "supplier_reliability": 4.8,
+          "differentiation": 8.5,
+          "ease_of_test": 8.6
+        },
+        "sourcing_score": 6.55,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_cd55979bd6b6",
+          "opp_0fb22f681beb"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Supplier reliability signal is thin",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      }
+    ],
+    "media_signals": [
+      {
+        "id": "med_robot_tt_001",
+        "niche_id": "robot_vacuum_care",
+        "platform": "TikTok",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://tiktok/robot/001",
+        "title": "Gỡ búi tóc khỏi chổi robot trong 30 giây",
+        "description": "Creator-authorized fixture cho routine maintenance.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-02T13:00:00Z",
+        "query": "robot hút bụi kẹt tóc",
+        "view_count": 214000,
+        "like_count": 12900,
+        "comment_count": 520,
+        "relevance_score": 9.4,
+        "problem_tags": [
+          "kẹt",
+          "tóc",
+          "bẩn"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      },
+      {
+        "id": "med_robot_yt_001",
+        "niche_id": "robot_vacuum_care",
+        "platform": "YouTube",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://youtube/robot/001",
+        "title": "Sai lầm khi thay filter robot hút bụi",
+        "description": "Video fixture so sánh compatibility và lịch thay vật tư.",
+        "creator": "Creator fixture",
+        "published_at": "2026-06-21T09:00:00Z",
+        "query": "thay filter robot hút bụi",
+        "view_count": 78600,
+        "like_count": 3200,
+        "comment_count": 215,
+        "relevance_score": 8.87,
+        "problem_tags": [
+          "filter",
+          "thay",
+          "chổi"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.704200+00:00"
+      }
+    ]
+  },
+  "seller_packing_os": {
+    "evidence": [
+      {
+        "id": "ev_pack_001",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Consented interview fixture",
+        "source_url": "sample://seller-packing/001",
+        "title": "Shop mất thời gian vì in nhãn và nhặt hàng chậm",
+        "content": "shop owner xử lý 80 đơn mỗi ngày, thường kẹt ở bước in nhãn và đôi khi nhầm size.",
+        "observed_at": "2026-08-01T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 18,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "ev_pack_002",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Consented interview fixture",
+        "source_url": "sample://seller-packing/002",
+        "title": "Túi đóng hàng mua dư gây lãng phí",
+        "content": "fashion seller thấy phí vật tư tăng, nhiều cỡ túi thiếu nhưng cỡ khác lại tốn và tồn kho.",
+        "observed_at": "2026-08-02T10:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 11,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "ev_pack_003",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Consented interview fixture",
+        "source_url": "sample://seller-packing/003",
+        "title": "Hàng móp và rách dẫn tới hoàn hàng",
+        "content": "packing staff gặp hộp móp, túi rách và khách return khi đóng hàng dễ vỡ chưa đúng cách.",
+        "observed_at": "2026-08-03T11:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 31,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "ev_pack_004",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Consented interview fixture",
+        "source_url": "sample://seller-packing/004",
+        "title": "Ca live-commerce dễ thiếu vật tư và nhầm đơn",
+        "content": "live-commerce seller mất thời gian tìm tape, thiếu label và nhầm đơn lúc cao điểm.",
+        "observed_at": "2026-08-04T12:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 24,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "ev_pack_005",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Consented interview fixture",
+        "source_url": "sample://seller-packing/005",
+        "title": "Phí đóng gói tăng nhưng khó biết size hộp tối ưu",
+        "content": "shop owner muốn mua vật tư đúng giá, giảm phí và tránh lãng phí khoảng trống trong hộp.",
+        "observed_at": "2026-08-05T13:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 22,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      }
+    ],
+    "pain_points": [
+      {
+        "id": "pain_e174d85d3e58",
+        "niche_id": "seller_packing_os",
+        "evidence_id": "ev_pack_001",
+        "statement": "Shop mất thời gian vì in nhãn và nhặt hàng chậm",
+        "actor": "shop owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.9,
+        "severity": 5.9,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.87,
+        "tags": [
+          "chậm",
+          "kẹt",
+          "mất thời gian",
+          "nhầm"
+        ]
+      },
+      {
+        "id": "pain_e6c89ce4027a",
+        "niche_id": "seller_packing_os",
+        "evidence_id": "ev_pack_002",
+        "statement": "Túi đóng hàng mua dư gây lãng phí",
+        "actor": "fashion seller",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.5,
+        "severity": 3.5,
+        "willingness_to_pay": 3.9,
+        "confidence": 0.84,
+        "tags": [
+          "lãng phí",
+          "phí",
+          "thiếu",
+          "tốn"
+        ]
+      },
+      {
+        "id": "pain_217da56c623e",
+        "niche_id": "seller_packing_os",
+        "evidence_id": "ev_pack_003",
+        "statement": "Hàng móp và rách dẫn tới hoàn hàng",
+        "actor": "packing staff",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.6,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.92,
+        "tags": [
+          "hoàn hàng",
+          "móp",
+          "return",
+          "rách"
+        ]
+      },
+      {
+        "id": "pain_9084c734e16a",
+        "niche_id": "seller_packing_os",
+        "evidence_id": "ev_pack_004",
+        "statement": "Ca live-commerce dễ thiếu vật tư và nhầm đơn",
+        "actor": "live-commerce seller",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.2,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.8,
+        "tags": [
+          "mất thời gian",
+          "nhầm",
+          "thiếu"
+        ]
+      },
+      {
+        "id": "pain_163073bf7e91",
+        "niche_id": "seller_packing_os",
+        "evidence_id": "ev_pack_005",
+        "statement": "Phí đóng gói tăng nhưng khó biết size hộp tối ưu",
+        "actor": "shop owner",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.1,
+        "severity": 3.5,
+        "willingness_to_pay": 5.3,
+        "confidence": 0.79,
+        "tags": [
+          "giá",
+          "lãng phí",
+          "phí"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster_00b9cde5764c",
+        "niche_id": "seller_packing_os",
+        "label": "damage_and_returns",
+        "description": "Recurring damage and returns problems for Seller Packing OS",
+        "pain_point_ids": [
+          "pain_217da56c623e"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "hoàn hàng",
+          "móp",
+          "return",
+          "rách"
+        ]
+      },
+      {
+        "id": "cluster_9162547ed2d4",
+        "niche_id": "seller_packing_os",
+        "label": "materials_cost",
+        "description": "Recurring materials cost problems for Seller Packing OS",
+        "pain_point_ids": [
+          "pain_e6c89ce4027a",
+          "pain_163073bf7e91"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "lãng phí",
+          "phí",
+          "thiếu",
+          "tốn",
+          "giá"
+        ]
+      },
+      {
+        "id": "cluster_5260d9cdd678",
+        "niche_id": "seller_packing_os",
+        "label": "packing_workflow",
+        "description": "Recurring packing workflow problems for Seller Packing OS",
+        "pain_point_ids": [
+          "pain_e174d85d3e58",
+          "pain_9084c734e16a"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "mất thời gian",
+          "nhầm",
+          "chậm",
+          "kẹt",
+          "thiếu"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp_c17d81474203",
+        "niche_id": "seller_packing_os",
+        "cluster_id": "cluster_5260d9cdd678",
+        "title": "Seller Packing OS: Packing Workflow",
+        "problem": "Shop mất thời gian vì in nhãn và nhặt hàng chậm; Ca live-commerce dễ thiếu vật tư và nhầm đơn",
+        "target_customer": "shop owner",
+        "proposed_offer": "Packing station starter kit + label workflow + daily SOP",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_pack_001",
+          "ev_pack_004"
+        ],
+        "dimensions": {
+          "frequency": 7.55,
+          "severity": 5.3,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.64,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.65,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "shop owner will pay for: Packing station starter kit + label workflow + daily SOP",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_305fbad11420",
+        "niche_id": "seller_packing_os",
+        "cluster_id": "cluster_9162547ed2d4",
+        "title": "Seller Packing OS: Materials Cost",
+        "problem": "Túi đóng hàng mua dư gây lãng phí; Phí đóng gói tăng nhưng khó biết size hộp tối ưu",
+        "target_customer": "fashion seller",
+        "proposed_offer": "Right-size packaging calculator + monthly consumables refill",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_pack_002",
+          "ev_pack_005"
+        ],
+        "dimensions": {
+          "frequency": 7.3,
+          "severity": 3.5,
+          "willingness_to_pay": 4.6,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.55,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.61,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "fashion seller will pay for: Right-size packaging calculator + monthly consumables refill",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_ea9ecaeaa0d9",
+        "niche_id": "seller_packing_os",
+        "cluster_id": "cluster_00b9cde5764c",
+        "title": "Seller Packing OS: Damage And Returns",
+        "problem": "Hàng móp và rách dẫn tới hoàn hàng",
+        "target_customer": "packing staff",
+        "proposed_offer": "Damage-prevention kit + returns diagnostics and SOP",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_pack_003"
+        ],
+        "dimensions": {
+          "frequency": 8.6,
+          "severity": 4.7,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 8.01,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.49,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "packing staff will pay for: Damage-prevention kit + returns diagnostics and SOP",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      }
+    ],
+    "product_candidates": [
+      {
+        "id": "prd_pack_002",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/packing/002",
+        "title": "Combo túi đóng hàng 4 size có mã màu",
+        "supplier_name": "Supplier SP-B (fixture)",
+        "marketplace": "Shopee",
+        "price": 289000,
+        "currency": "VND",
+        "min_order_quantity": 5,
+        "shipping_origin": "Vietnam",
+        "rating": 4.7,
+        "review_count": 96,
+        "sold_count": 410,
+        "problem_tags": [
+          "thiếu",
+          "lãng phí",
+          "phí"
+        ],
+        "dimensions": {
+          "pain_fit": 8.1,
+          "demand_signal": 7.0,
+          "repeat_purchase": 9.1,
+          "gross_margin_potential": 6.8,
+          "supplier_reliability": 7.0,
+          "differentiation": 5.8,
+          "ease_of_test": 8.8
+        },
+        "sourcing_score": 7.53,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_c17d81474203",
+          "opp_305fbad11420"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "prd_pack_001",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/packing/001",
+        "title": "Bộ máy in nhiệt và khay nhãn cho packing station",
+        "supplier_name": "Supplier SP-A (fixture)",
+        "marketplace": "Shopee",
+        "price": 1850000,
+        "currency": "VND",
+        "min_order_quantity": 1,
+        "shipping_origin": "Vietnam",
+        "rating": 4.8,
+        "review_count": 184,
+        "sold_count": 620,
+        "problem_tags": [
+          "kẹt",
+          "nhầm",
+          "mất thời gian"
+        ],
+        "dimensions": {
+          "pain_fit": 8.6,
+          "demand_signal": 7.3,
+          "repeat_purchase": 5.5,
+          "gross_margin_potential": 6.2,
+          "supplier_reliability": 7.5,
+          "differentiation": 6.4,
+          "ease_of_test": 8.2
+        },
+        "sourcing_score": 7.17,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_c17d81474203"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      },
+      {
+        "id": "prd_pack_003",
+        "niche_id": "seller_packing_os",
+        "source_type": "synthetic_sample",
+        "source_name": "Supplier CSV fixture",
+        "source_url": "sample://supplier/packing/003",
+        "title": "Kit chống móp cho hàng dễ vỡ",
+        "supplier_name": "Supplier SP-C (fixture)",
+        "marketplace": "Supplier CSV",
+        "price": 149000,
+        "currency": "VND",
+        "min_order_quantity": 10,
+        "shipping_origin": "Vietnam",
+        "rating": null,
+        "review_count": 0,
+        "sold_count": 0,
+        "problem_tags": [
+          "móp",
+          "hỏng",
+          "hoàn hàng"
+        ],
+        "dimensions": {
+          "pain_fit": 8.8,
+          "demand_signal": 5.2,
+          "repeat_purchase": 7.6,
+          "gross_margin_potential": 7.4,
+          "supplier_reliability": 4.5,
+          "differentiation": 7.2,
+          "ease_of_test": 8.0
+        },
+        "sourcing_score": 7.06,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_ea9ecaeaa0d9"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Supplier reliability signal is thin",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.720170+00:00"
+      }
+    ],
+    "media_signals": [
+      {
+        "id": "med_pack_tt_001",
+        "niche_id": "seller_packing_os",
+        "platform": "TikTok",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://tiktok/packing/001",
+        "title": "Ca live sale hết túi và nhãn giữa giờ",
+        "description": "Creator-authorized fixture về thiếu vật tư khi xử lý đơn cao điểm.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-18T13:00:00Z",
+        "query": "packing live commerce",
+        "view_count": 128000,
+        "like_count": 7400,
+        "comment_count": 390,
+        "relevance_score": 9.13,
+        "problem_tags": [
+          "thiếu",
+          "nhầm"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.722949+00:00"
+      },
+      {
+        "id": "med_pack_yt_001",
+        "niche_id": "seller_packing_os",
+        "platform": "YouTube",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://youtube/packing/001",
+        "title": "Workflow đóng 100 đơn trong một giờ",
+        "description": "Video fixture mô tả bottleneck in nhãn, nhặt hàng và kiểm đơn.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-10T09:00:00Z",
+        "query": "đóng gói shop nhiều đơn",
+        "view_count": 42100,
+        "like_count": 1850,
+        "comment_count": 146,
+        "relevance_score": 8.55,
+        "problem_tags": [
+          "kẹt",
+          "nhầm",
+          "mất thời gian"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.722949+00:00"
+      }
+    ]
+  },
+  "tropical_bonsai_lab": {
+    "evidence": [
+      {
+        "id": "ev_bonsai_001",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Grower journal fixture",
+        "source_url": "sample://bonsai/001",
+        "title": "Cây úng sau nhiều ngày mưa",
+        "content": "bonsai grower tưới theo lịch nên đất còn ẩm, cây úng và bắt đầu thối rễ.",
+        "observed_at": "2026-08-01T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 29,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "ev_bonsai_002",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Grower journal fixture",
+        "source_url": "sample://bonsai/002",
+        "title": "Vàng lá và rụng lá khó chẩn đoán",
+        "content": "urban gardener gặp vàng lá, rụng lá và sâu nhưng không biết nguyên nhân chính.",
+        "observed_at": "2026-08-02T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 25,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "ev_bonsai_003",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Grower journal fixture",
+        "source_url": "sample://bonsai/003",
+        "title": "Khó chọn đất và phân theo mùa",
+        "content": "bonsai collector muốn mua đất, phân và thuốc phù hợp trước khi thay chậu.",
+        "observed_at": "2026-08-03T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 16,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "ev_bonsai_004",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Grower journal fixture",
+        "source_url": "sample://bonsai/004",
+        "title": "Độ ẩm thay đổi nhanh làm cây lúc khô lúc úng",
+        "content": "bonsai grower cần đo độ ẩm thay vì tưới cố định để tránh khô và úng.",
+        "observed_at": "2026-08-04T09:00:00+07:00",
+        "language": "vi",
+        "author": null,
+        "engagement": 23,
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      }
+    ],
+    "pain_points": [
+      {
+        "id": "pain_83e7c7421a23",
+        "niche_id": "tropical_bonsai_lab",
+        "evidence_id": "ev_bonsai_001",
+        "statement": "Cây úng sau nhiều ngày mưa",
+        "actor": "bonsai grower",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.4,
+        "severity": 4.7,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.92,
+        "tags": [
+          "thối rễ",
+          "tưới",
+          "úng",
+          "đất"
+        ]
+      },
+      {
+        "id": "pain_b62f7914343c",
+        "niche_id": "tropical_bonsai_lab",
+        "evidence_id": "ev_bonsai_002",
+        "statement": "Vàng lá và rụng lá khó chẩn đoán",
+        "actor": "urban gardener",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.2,
+        "severity": 3.5,
+        "willingness_to_pay": 2.5,
+        "confidence": 0.9,
+        "tags": [
+          "khô",
+          "rụng lá",
+          "sâu",
+          "vàng lá"
+        ]
+      },
+      {
+        "id": "pain_466678becce1",
+        "niche_id": "tropical_bonsai_lab",
+        "evidence_id": "ev_bonsai_003",
+        "statement": "Khó chọn đất và phân theo mùa",
+        "actor": "bonsai collector",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 7.8,
+        "severity": 3.5,
+        "willingness_to_pay": 5.3,
+        "confidence": 0.86,
+        "tags": [
+          "phân",
+          "thay chậu",
+          "thuốc",
+          "đất"
+        ]
+      },
+      {
+        "id": "pain_a9e78b5c42da",
+        "niche_id": "tropical_bonsai_lab",
+        "evidence_id": "ev_bonsai_004",
+        "statement": "Độ ẩm thay đổi nhanh làm cây lúc khô lúc úng",
+        "actor": "bonsai grower",
+        "workaround": "Manual/ad-hoc workaround inferred; validate by interview",
+        "purchase_trigger": "Problem recurrence or asset/order at risk",
+        "frequency": 8.2,
+        "severity": 4.7,
+        "willingness_to_pay": 3.9,
+        "confidence": 0.89,
+        "tags": [
+          "khô",
+          "tưới",
+          "úng",
+          "độ ẩm"
+        ]
+      }
+    ],
+    "clusters": [
+      {
+        "id": "cluster_a538e0f8fbb4",
+        "niche_id": "tropical_bonsai_lab",
+        "label": "care_inputs",
+        "description": "Recurring care inputs problems for Tropical Bonsai Lab",
+        "pain_point_ids": [
+          "pain_466678becce1"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "phân",
+          "thay chậu",
+          "thuốc",
+          "đất"
+        ]
+      },
+      {
+        "id": "cluster_6cd07c626d9c",
+        "niche_id": "tropical_bonsai_lab",
+        "label": "plant_health",
+        "description": "Recurring plant health problems for Tropical Bonsai Lab",
+        "pain_point_ids": [
+          "pain_b62f7914343c"
+        ],
+        "evidence_count": 1,
+        "keywords": [
+          "khô",
+          "rụng lá",
+          "sâu",
+          "vàng lá"
+        ]
+      },
+      {
+        "id": "cluster_bf31bc6cbd7d",
+        "niche_id": "tropical_bonsai_lab",
+        "label": "watering_control",
+        "description": "Recurring watering control problems for Tropical Bonsai Lab",
+        "pain_point_ids": [
+          "pain_83e7c7421a23",
+          "pain_a9e78b5c42da"
+        ],
+        "evidence_count": 2,
+        "keywords": [
+          "tưới",
+          "úng",
+          "thối rễ",
+          "đất",
+          "khô",
+          "độ ẩm"
+        ]
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "opp_dbab8c0abb96",
+        "niche_id": "tropical_bonsai_lab",
+        "cluster_id": "cluster_bf31bc6cbd7d",
+        "title": "Tropical Bonsai Lab: Watering Control",
+        "problem": "Cây úng sau nhiều ngày mưa; Độ ẩm thay đổi nhanh làm cây lúc khô lúc úng",
+        "target_customer": "bonsai grower",
+        "proposed_offer": "Moisture-led watering journal + sensor kit",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_bonsai_001",
+          "ev_bonsai_004"
+        ],
+        "dimensions": {
+          "frequency": 8.3,
+          "severity": 4.7,
+          "willingness_to_pay": 3.2,
+          "evidence_strength": 5.4,
+          "market_reach": 5.4,
+          "repeatability": 7.91,
+          "data_moat": 5.0,
+          "ease_of_test": 8.0
+        },
+        "score": 5.82,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "bonsai grower will pay for: Moisture-led watering journal + sensor kit",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_9d44bc7f147d",
+        "niche_id": "tropical_bonsai_lab",
+        "cluster_id": "cluster_a538e0f8fbb4",
+        "title": "Tropical Bonsai Lab: Care Inputs",
+        "problem": "Khó chọn đất và phân theo mùa",
+        "target_customer": "bonsai collector",
+        "proposed_offer": "Species/season care pack + replenishment schedule",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_bonsai_003"
+        ],
+        "dimensions": {
+          "frequency": 7.8,
+          "severity": 3.5,
+          "willingness_to_pay": 5.3,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.73,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.55,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "bonsai collector will pay for: Species/season care pack + replenishment schedule",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      },
+      {
+        "id": "opp_39cd6a300655",
+        "niche_id": "tropical_bonsai_lab",
+        "cluster_id": "cluster_6cd07c626d9c",
+        "title": "Tropical Bonsai Lab: Plant Health",
+        "problem": "Vàng lá và rụng lá khó chẩn đoán",
+        "target_customer": "urban gardener",
+        "proposed_offer": "Photo triage + care protocol",
+        "business_model": "Starter kit + recurring consumables + optional workflow software/service",
+        "evidence_ids": [
+          "ev_bonsai_002"
+        ],
+        "dimensions": {
+          "frequency": 8.2,
+          "severity": 3.5,
+          "willingness_to_pay": 2.5,
+          "evidence_strength": 4.2,
+          "market_reach": 4.7,
+          "repeatability": 7.87,
+          "data_moat": 4.5,
+          "ease_of_test": 8.0
+        },
+        "score": 5.19,
+        "score_version": "v1",
+        "risks": [
+          "Thin evidence: fewer than 3 independent observations",
+          "Weak willingness-to-pay signal; do not infer demand from complaints",
+          "Source diversity and sample size need validation",
+          "Heuristic extraction may misread context; review evidence manually",
+          "Check unit economics, substitutes and platform dependency before build"
+        ],
+        "experiment": {
+          "hypothesis": "urban gardener will pay for: Photo triage + care protocol",
+          "method": "10 problem interviews + smoke-test landing page + manual concierge fulfillment",
+          "sample_size": 10,
+          "duration_days": 7,
+          "success_metrics": {
+            "qualified_interview_problem_rate": ">= 60%",
+            "landing_page_lead_rate": ">= 8%",
+            "paid_or_deposit_commitments": ">= 3"
+          },
+          "stop_rule": "Stop or revise after 10 qualified interviews if fewer than 4 report the problem unprompted"
+        }
+      }
+    ],
+    "product_candidates": [
+      {
+        "id": "prd_bonsai_002",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/bonsai/002",
+        "title": "Giá thể thoát nước đóng gói theo cỡ chậu",
+        "supplier_name": "Supplier TB-B (fixture)",
+        "marketplace": "Shopee",
+        "price": 159000,
+        "currency": "VND",
+        "min_order_quantity": 5,
+        "shipping_origin": "Vietnam",
+        "rating": 4.8,
+        "review_count": 211,
+        "sold_count": 740,
+        "problem_tags": [
+          "đất",
+          "thối rễ",
+          "thay chậu"
+        ],
+        "dimensions": {
+          "pain_fit": 8.5,
+          "demand_signal": 8.0,
+          "repeat_purchase": 8.2,
+          "gross_margin_potential": 6.9,
+          "supplier_reliability": 7.8,
+          "differentiation": 6.2,
+          "ease_of_test": 8.8
+        },
+        "sourcing_score": 7.83,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_9d44bc7f147d"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "prd_bonsai_001",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Shopee authorized-export fixture",
+        "source_url": "sample://shopee/bonsai/001",
+        "title": "Cảm biến ẩm đất cầm tay cho chậu bonsai",
+        "supplier_name": "Supplier TB-A (fixture)",
+        "marketplace": "Shopee",
+        "price": 389000,
+        "currency": "VND",
+        "min_order_quantity": 2,
+        "shipping_origin": "Vietnam",
+        "rating": 4.7,
+        "review_count": 144,
+        "sold_count": 390,
+        "problem_tags": [
+          "độ ẩm",
+          "tưới",
+          "úng"
+        ],
+        "dimensions": {
+          "pain_fit": 8.8,
+          "demand_signal": 7.4,
+          "repeat_purchase": 4.2,
+          "gross_margin_potential": 6.8,
+          "supplier_reliability": 7.2,
+          "differentiation": 6.9,
+          "ease_of_test": 8.4
+        },
+        "sourcing_score": 7.16,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_dbab8c0abb96"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "prd_bonsai_003",
+        "niche_id": "tropical_bonsai_lab",
+        "source_type": "synthetic_sample",
+        "source_name": "Supplier CSV fixture",
+        "source_url": "sample://supplier/bonsai/003",
+        "title": "Bộ thẻ nhật ký chăm cây chống nước",
+        "supplier_name": "Supplier TB-C (fixture)",
+        "marketplace": "Supplier CSV",
+        "price": 89000,
+        "currency": "VND",
+        "min_order_quantity": 20,
+        "shipping_origin": "Vietnam",
+        "rating": null,
+        "review_count": 0,
+        "sold_count": 0,
+        "problem_tags": [
+          "tưới",
+          "phân",
+          "vàng lá"
+        ],
+        "dimensions": {
+          "pain_fit": 7.5,
+          "demand_signal": 5.1,
+          "repeat_purchase": 5.0,
+          "gross_margin_potential": 8.5,
+          "supplier_reliability": 5.0,
+          "differentiation": 8.1,
+          "ease_of_test": 9.0
+        },
+        "sourcing_score": 6.68,
+        "score_version": "sourcing_v1",
+        "linked_opportunity_ids": [
+          "opp_9d44bc7f147d",
+          "opp_39cd6a300655"
+        ],
+        "risks": [
+          "Listing data is unverified; confirm price, availability and authorization at source",
+          "Supplier reliability signal is thin",
+          "Validate landed cost, compliance, warranty and IP before purchase"
+        ],
+        "metadata": {
+          "synthetic": true,
+          "validation": "required"
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      }
+    ],
+    "media_signals": [
+      {
+        "id": "med_bonsai_tt_001",
+        "niche_id": "tropical_bonsai_lab",
+        "platform": "TikTok",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://tiktok/bonsai/001",
+        "title": "Test độ ẩm chậu bonsai trước khi tưới",
+        "description": "Creator-authorized fixture về moisture check hằng ngày.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-22T13:00:00Z",
+        "query": "độ ẩm đất bonsai",
+        "view_count": 116000,
+        "like_count": 6800,
+        "comment_count": 305,
+        "relevance_score": 9.08,
+        "problem_tags": [
+          "độ ẩm",
+          "tưới",
+          "khô"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      },
+      {
+        "id": "med_bonsai_yt_001",
+        "niche_id": "tropical_bonsai_lab",
+        "platform": "YouTube",
+        "source_type": "synthetic_sample",
+        "source_url": "sample://youtube/bonsai/001",
+        "title": "Bonsai úng rễ sau mưa kéo dài",
+        "description": "Video fixture giải thích tưới theo độ ẩm thay vì lịch cố định.",
+        "creator": "Creator fixture",
+        "published_at": "2026-07-01T09:00:00Z",
+        "query": "bonsai úng rễ",
+        "view_count": 48800,
+        "like_count": 2400,
+        "comment_count": 226,
+        "relevance_score": 8.63,
+        "problem_tags": [
+          "úng",
+          "thối rễ",
+          "độ ẩm"
+        ],
+        "metadata": {
+          "synthetic": true
+        },
+        "collected_at": "2026-08-23T19:24:46.732288+00:00"
+      }
+    ]
+  }
+}

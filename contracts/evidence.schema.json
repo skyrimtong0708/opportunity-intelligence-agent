@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/evidence.schema.json",
+  "title": "Evidence",
+  "type": "object",
+  "required": ["id", "niche_id", "source_type", "source_name", "source_url", "title", "content", "observed_at", "language"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "niche_id": {"type": "string", "pattern": "^[a-z0-9_]+$"},
+    "source_type": {"enum": ["synthetic_sample", "official_api", "public_api", "rss", "open_dataset", "first_party"]},
+    "source_name": {"type": "string"},
+    "source_url": {"type": "string"},
+    "title": {"type": "string"},
+    "content": {"type": "string"},
+    "observed_at": {"type": "string", "format": "date-time"},
+    "language": {"type": "string"},
+    "author": {"type": ["string", "null"]},
+    "engagement": {"type": "integer", "minimum": 0},
+    "metadata": {"type": "object"}
+  },
+  "additionalProperties": true
+}
+

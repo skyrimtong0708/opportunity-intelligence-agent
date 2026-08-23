@@ -1,0 +1,13 @@
+{
+  "id": "robot_vacuum_care",
+  "name": "Robot Vacuum Care",
+  "description": "Aftermarket care, consumables and maintenance workflow for robot vacuums.",
+  "actors": ["robot vacuum owner", "pet owner", "apartment resident"],
+  "seed_queries": ["robot hút bụi kẹt chổi", "thay filter robot", "robot có mùi", "bản đồ robot lỗi"],
+  "pain_keywords": {"maintenance": ["kẹt", "tóc", "bẩn", "mùi"], "consumables": ["thay", "filter", "chổi", "túi"], "reliability": ["lỗi", "hỏng", "không hút", "mất bản đồ"]},
+  "clusters": {"routine_maintenance": ["kẹt", "tóc", "bẩn", "mùi"], "consumable_replacement": ["thay", "filter", "chổi", "túi"], "reliability_recovery": ["lỗi", "hỏng", "không hút", "mất bản đồ"]},
+  "offer_templates": {"routine_maintenance": "Model-specific cleaning kit + reminder schedule", "consumable_replacement": "Verified compatibility refill subscription", "reliability_recovery": "Remote diagnostic checklist + repair routing"},
+  "legal_sources": [{"type": "manufacturer_docs", "name": "Public manuals/support", "status": "allowed_with_attribution"}, {"type": "first_party", "name": "Consented owner survey", "status": "recommended"}],
+  "scoring_overrides": {}
+}
+

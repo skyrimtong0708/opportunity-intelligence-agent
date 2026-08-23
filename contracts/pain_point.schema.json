@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/pain_point.schema.json",
+  "title": "PainPoint",
+  "type": "object",
+  "required": ["id", "niche_id", "evidence_id", "statement", "actor", "workaround", "purchase_trigger", "frequency", "severity", "willingness_to_pay", "confidence", "tags"],
+  "properties": {
+    "id": {"type": "string"},
+    "niche_id": {"type": "string"},
+    "evidence_id": {"type": "string"},
+    "statement": {"type": "string"},
+    "actor": {"type": "string"},
+    "workaround": {"type": "string"},
+    "purchase_trigger": {"type": "string"},
+    "frequency": {"type": "number", "minimum": 0, "maximum": 10},
+    "severity": {"type": "number", "minimum": 0, "maximum": 10},
+    "willingness_to_pay": {"type": "number", "minimum": 0, "maximum": 10},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "tags": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}
+

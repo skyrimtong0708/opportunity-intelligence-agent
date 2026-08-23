@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.oia/contracts/media_signal.schema.json",
+  "title": "MediaSignal",
+  "type": "object",
+  "required": ["id", "niche_id", "platform", "source_type", "source_url", "title", "description", "creator", "published_at", "query", "view_count", "like_count", "comment_count", "relevance_score", "problem_tags", "metadata"],
+  "properties": {
+    "id": {"type": "string"}, "niche_id": {"type": "string"}, "platform": {"enum": ["YouTube", "TikTok", "Other"]},
+    "source_type": {"type": "string"}, "source_url": {"type": "string"}, "title": {"type": "string"},
+    "description": {"type": "string"}, "creator": {"type": "string"},
+    "published_at": {"type": "string", "format": "date-time"}, "query": {"type": "string"},
+    "view_count": {"type": "integer", "minimum": 0}, "like_count": {"type": "integer", "minimum": 0},
+    "comment_count": {"type": "integer", "minimum": 0},
+    "relevance_score": {"type": "number", "minimum": 0, "maximum": 10},
+    "problem_tags": {"type": "array", "items": {"type": "string"}}, "metadata": {"type": "object"},
+    "collected_at": {"type": "string", "format": "date-time"}
+  },
+  "additionalProperties": false
+}
